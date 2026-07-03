@@ -19,7 +19,7 @@ public:
                     while (j<k && nums[j] == nums[j-1]){    //Duplicate check for j
                         j++;
                     }
-                    while (j<k && nums[k] == nums[k+1]){   //Duplivcate check for k
+                    while (j<k && nums[k] == nums[k+1]){   //Duplicate check for k
                         k--;
                     }
                 } else if (nums[j] + nums[k] > sum){

@@ -1,5 +1,5 @@
 <h2>Solution approach</h2>
-<p>Here, we need to map.size() <= 2 for correct condition
+<p>Here, we need to map.size() <= 2 for correct condition<br>
 wrong condition when window size need to decrement  map.size() > 2.</p>
 
 

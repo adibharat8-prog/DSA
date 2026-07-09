@@ -1,3 +1,8 @@
+<h2>Answer approach</h2>
+<p>Sort array and use two pointers to find triplets summing to zero while skipping duplicates.</p>
+
+
+
 <h2><a href="https://leetcode.com/problems/3sum">3Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer array nums, return all the triplets <code>[nums[i], nums[j], nums[k]]</code> such that <code>i != j</code>, <code>i != k</code>, and <code>j != k</code>, and <code>nums[i] + nums[j] + nums[k] == 0</code>.</p>
 
 <p>Notice that the solution set must not contain duplicate triplets.</p>

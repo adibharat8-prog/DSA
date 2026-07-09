@@ -1,3 +1,8 @@
+<h2>Answer approach</h2>
+<p>Here we can't add from start it will overwrite the values hence we start writing from end, after comparing last elements of both arrays.</p>
+
+
+
 <h2><a href="https://leetcode.com/problems/merge-sorted-array">Merge Sorted Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given two integer arrays <code>nums1</code> and <code>nums2</code>, sorted in <strong>non-decreasing order</strong>, and two integers <code>m</code> and <code>n</code>, representing the number of elements in <code>nums1</code> and <code>nums2</code> respectively.</p>
 
 <p><strong>Merge</strong> <code>nums1</code> and <code>nums2</code> into a single array sorted in <strong>non-decreasing order</strong>.</p>

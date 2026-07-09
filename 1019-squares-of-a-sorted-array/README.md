@@ -1,3 +1,9 @@
+<h2>Solution approach</h2>
+<p>As array is sorted so any of the both ends must contain largest number in magnitude,<br>
+find it and then start filling resultant array from back by k.As array is sorted so any of the both ends must contain largest number in magnitude, find it and then start filling resultant array from back by k.</p>
+
+
+
 <h2><a href="https://leetcode.com/problems/squares-of-a-sorted-array">Squares of a Sorted Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer array <code>nums</code> sorted in <strong>non-decreasing</strong> order, return <em>an array of <strong>the squares of each number</strong> sorted in non-decreasing order</em>.</p>
 
 <p>&nbsp;</p>

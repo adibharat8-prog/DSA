@@ -1,3 +1,12 @@
+<h2>Answer approach</h2>
+<p>We need longest substring with unique characters then we need subarray with [map.size() == len of that subarray].<br>
+
+Wrong condition when subarray needs to decrement the size is (map.size() < len of that subarray)<nr>
+
+Here (map.size() !> len of that subarray) because here map contain only those elements which are available at that time subarray.</p>
+
+
+
 <h2><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Longest Substring Without Repeating Characters</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword="substring-nonempty"><strong>substring</strong></span> without duplicate characters.</p>
 
 <p>&nbsp;</p>

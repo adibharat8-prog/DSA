@@ -1,8 +1,8 @@
 <h2>Answer approach</h2>
 <p>The sliding window idea of:<br>
-1. Maintain character frequencies. (in an array)
-2. maxFreq = maximum frequency of any character in the current window.
-3. If (len - maxFreq) > k, shrink the window.   (len is window size)</p>
+1. Maintain character frequencies. (in an array)<br>
+2. maxFreq = maximum frequency of any character in the current window.<br>
+3. If (len - maxFreq) > k, shrink the window.   (len is window size)</p><br>
 
 <br>
 

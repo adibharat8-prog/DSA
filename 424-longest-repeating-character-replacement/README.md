@@ -1,3 +1,13 @@
+<h2>Answer approach</h2>
+<p>The sliding window idea of:<br>
+1. Maintain character frequencies. (in an array)
+2. maxFreq = maximum frequency of any character in the current window.
+3. If (len - maxFreq) > k, shrink the window.   (len is window size)</p>
+
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/longest-repeating-character-replacement">Longest Repeating Character Replacement</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> and an integer <code>k</code>. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most <code>k</code> times.</p>
 
 <p>Return <em>the length of the longest substring containing the same letter you can get after performing the above operations</em>.</p>

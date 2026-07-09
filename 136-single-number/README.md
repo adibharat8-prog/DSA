@@ -1,3 +1,11 @@
+<h2>Answer approach</h2>
+<p>Here we need to use xor properties<br>
+1^1 = 0<br>
+0^1 = 1<br>
+
+so we iterate all elements and xor them at end only unique one is left.</p>
+
+
 <h2><a href="https://leetcode.com/problems/single-number">Single Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a <strong>non-empty</strong>&nbsp;array of integers <code>nums</code>, every element appears <em>twice</em> except for one. Find that single one.</p>
 
 <p>You must&nbsp;implement a solution with a linear runtime complexity and use&nbsp;only constant&nbsp;extra space.</p>

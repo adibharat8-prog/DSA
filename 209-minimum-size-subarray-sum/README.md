@@ -1,3 +1,10 @@
+<h2>Answer approach</h2>
+<p>minimal length = least size so the wrong condition loop which is write to reduce window size is now written for correct condition.<br>
+
+Loop with correct condition and find the size then compare the minimum one and then remove low's sum and decrease window size </p>
+
+
+
 <h2><a href="https://leetcode.com/problems/minimum-size-subarray-sum">Minimum Size Subarray Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of positive integers <code>nums</code> and a positive integer <code>target</code>, return <em>the <strong>minimal length</strong> of a </em><span data-keyword="subarray-nonempty"><em>subarray</em></span><em> whose sum is greater than or equal to</em> <code>target</code>. If there is no such subarray, return <code>0</code> instead.</p>
 
 <p>&nbsp;</p>

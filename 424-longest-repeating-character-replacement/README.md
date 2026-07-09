@@ -1,6 +1,6 @@
 <h2>Answer approach</h2>
 <p>The sliding window idea of:<br>
-1. Maintain character frequencies. (in an array, arr(256,0) or arr[256] = {0}) <br>
+1. Maintain character frequencies. (in an vector, arr(256,0) or arr[256] = {0}) <br>
 2. maxFreq = maximum frequency of any character in the current window. (By another fucntion) <br>
 3. If (len - maxFreq) > k, shrink the window, inside wrong info loop.   (len is window size)</p><br>
 

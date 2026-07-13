@@ -1,3 +1,11 @@
+<h2>Answer approach</h2>
+<p>Just check when nums[high] == 0 => zeroCount++ <br>
+As when zeroCount<=0 then we can replace zeros with ones but here max subarray needed hence we decrease window size while condition is wrong.</p>
+
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/max-consecutive-ones-iii">Max Consecutive Ones III</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary array <code>nums</code> and an integer <code>k</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array if you can flip at most</em> <code>k</code> <code>0</code>&#39;s.</p>
 
 <p>&nbsp;</p>

@@ -1,3 +1,13 @@
+<h2>Answer approach</h2>
+<p>
+$5 → keep it.
+$10 → give one $5 change.
+$20 → prefer giving one $10 and one $5, because $5 bills are more valuable for future change
+</p>
+
+<br>
+<br>
+
 <h2><a href="https://leetcode.com/problems/lemonade-change">Lemonade Change</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>At a lemonade stand, each lemonade costs <code>$5</code>. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a <code>$5</code>, <code>$10</code>, or <code>$20</code> bill. You must provide the correct change to each customer so that the net transaction is that the customer pays <code>$5</code>.</p>
 
 <p>Note that you do not have any change in hand at first.</p>

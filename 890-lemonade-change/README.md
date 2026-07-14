@@ -1,7 +1,7 @@
 <h2>Answer approach</h2>
 <p>
-$5 → keep it.
-$10 → give one $5 change.
+$5 → keep it. <br>
+$10 → give one $5 change. <br>
 $20 → prefer giving one $10 and one $5, because $5 bills are more valuable for future change
 </p>
 

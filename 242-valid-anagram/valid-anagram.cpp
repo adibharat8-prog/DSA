@@ -11,7 +11,7 @@ public:
         }
         for (char ch2:t){
             map[ch2]--;
-            if(map[ch2]<0){
+            if(map[ch2]<0){     //Iteration for single character, its frequency == 0     
                 return false;
             }
         }

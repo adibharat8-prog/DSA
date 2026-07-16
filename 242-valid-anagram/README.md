@@ -1,3 +1,11 @@
+<h2>Anwer approach</h2>
+<p>Make an array to store frequency of each element of s and then decrement frequency of each element of t.<br>
+If any index < 0 means extra element is present hence not an anagram.</p>
+
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/valid-anagram">Valid Anagram</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code> if <code>t</code> is an <span data-keyword="anagram">anagram</span> of <code>s</code>, and <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>

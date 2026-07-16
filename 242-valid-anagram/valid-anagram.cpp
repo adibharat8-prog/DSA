@@ -5,16 +5,19 @@ public:
             return false;
         }
 
-        unordered_map <char,int> map;
-        for(char ch1:s){
-            map[ch1]++;
+        vector <int> arr(256,0);    //Can be arr(26,0) -> only small alphabets needed
+        
+        for(int i=0; i<s.length(); i++){
+            arr[s[i] - 'a']++;
         }
-        for (char ch2:t){
-            map[ch2]--;
-            if(map[ch2]<0){     //Iteration for single character, its frequency == 0     
+
+        for(int i=0; i<t.length(); i++){
+            arr[t[i] - 'a']--;
+            if (arr[t[i] - 'a'] < 0){
                 return false;
             }
         }
         return true;
+        
     }
 };

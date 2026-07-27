@@ -1,3 +1,16 @@
+<h2>Answer approach</h2>
+<p>
+	O(nlogn):-<br>
+sort(nums.begin(),nums.end());<br>
+        int maxi = INT_MIN;<br>
+        int num1=0;<br>
+        int num2=0;<br>
+        return (nums[nums.size()-1]-1)*(nums[nums.size()-2]-1);
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array">Maximum Product of Two Elements in an Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr>Given the array of integers <code>nums</code>, you will choose two different indices <code>i</code> and <code>j</code> of that array. <em>Return the maximum value of</em> <code>(nums[i]-1)*(nums[j]-1)</code>.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

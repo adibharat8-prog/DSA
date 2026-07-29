@@ -1,3 +1,22 @@
+<h2>Answer approcah</h2>
+<p>If we use slow and fast as double speed of slow then when fast complete the linked list then slow must be at the middle node (if length is even then on second middle)</p>
+<p>
+Brute force need to traverse two times :-
+ListNode * temp=head;<br>
+int count = 0;<br>
+while(temp!=NULL){<br>
+    temp=temp->next;<br>
+    count++;<br>
+}<br>
+temp = head;<br>
+for(int i=0; i<(count/2); i++){<br>
+    temp=temp->next;<br>
+}<br>
+return temp;<br>
+</p>
+
+
+
 <h2><a href="https://leetcode.com/problems/middle-of-the-linked-list">Middle of the Linked List</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given the <code>head</code> of a singly linked list, return <em>the middle node of the linked list</em>.</p>
 
 <p>If there are two middle nodes, return <strong>the second middle</strong> node.</p>

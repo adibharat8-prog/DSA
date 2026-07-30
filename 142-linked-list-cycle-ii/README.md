@@ -1,3 +1,21 @@
+<h2>Answer Approach</h2>
+<p>Here first we check whether head = NULL (as while can't check if head is NULL because here and is used so if head = NULL -> false but then it also checks another condition i.e head->next = NULL.)<br>
+
+Second for cycle detection (floyd's cycle detection algorithm).<br>
+
+
+
+If loop doesn' t exist then fast must be NULL or at the last loop hence return NULL.<br>
+(if fast==NULL || fast->next==NULL)<br>
+
+Third if cycle exists then slow = head and fast is at meeting point, then move both single steps and where they meet is the starting of cycle.<br>
+
+Mathematical proof is also needed.<br>
+</p>
+
+<br>
+<br>
+
 <h2><a href="https://leetcode.com/problems/linked-list-cycle-ii">Linked List Cycle II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given the <code>head</code> of a linked list, return <em>the node where the cycle begins. If there is no cycle, return </em><code>null</code>.</p>
 
 <p>There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the <code>next</code> pointer. Internally, <code>pos</code> is used to denote the index of the node that tail&#39;s <code>next</code> pointer is connected to (<strong>0-indexed</strong>). It is <code>-1</code> if there is no cycle. <strong>Note that</strong> <code>pos</code> <strong>is not passed as a parameter</strong>.</p>

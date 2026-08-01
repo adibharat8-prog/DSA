@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+Here make every element with its index position a node so where the element is repeated then there will be a loop.<br>
+Hence our approach is similar to floyd's cycle detection algorithm, in which we check for the cycle (which must present as it is mentioned in question that only one element is repeated) then make slow = 0 and move both by one till they meet somewhere and that meeting point is the starting of loop or the repeated element.
+</p>
+
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/find-the-duplicate-number">Find the Duplicate Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of integers <code>nums</code> containing&nbsp;<code>n + 1</code> integers where each integer is in the range <code>[1, n]</code> inclusive.</p>
 
 <p>There is only <strong>one repeated number</strong> in <code>nums</code>, return <em>this&nbsp;repeated&nbsp;number</em>.</p>

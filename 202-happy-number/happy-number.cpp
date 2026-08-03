@@ -1,27 +1,28 @@
 class Solution {
 public:
-
-    int Sum(int n){
-        int num = n;
+    int checkCondition(int &n){
         int sum = 0;
-        while(num>0){
-            int d = num % 10;
-            num = num / 10;
+        while(n>0){
+            int d = n%10;
+            n = n/10;
             sum = sum + d*d;
         }
         return sum;
     }
 
-    bool isHappy(int n) {
-       unordered_set<int> set;
 
-    while(n!=1){
-        n = Sum(n);
-        if(set.count(n)){
-            return false;
+    bool isHappy(int n) {
+        int slow = n;
+        int fast = n;
+        while(fast!=1){
+            slow = checkCondition(slow);
+            fast = checkCondition(fast);
+            fast = checkCondition(fast);
+
+            if(slow == fast && slow != 1){
+                return false;
+            }
         }
-        set.insert(n);
-    }
-    return true;
+        return true;
     }
 };

@@ -2,7 +2,7 @@
 <p>
 We prepare two variables maxEnd and minEnd which stores the max and min product before ith element, at i=0 max and min both is nums[0] even ans also is nums[0].<br>
 
-Then we start a for loop from i=1 to 1-nums.size() and make 3 variable v1= ith element, v2 = ith ele * maxEnd and v3=ith ele * minEnd now we every time we store store max and min value among three of them in maxEnd and minEnd respectively.<br>
+Then we start a for loop from i=1 to nums.size()-1 and make 3 variable v1= ith element, v2 = ith ele * maxEnd and v3=ith ele * minEnd now we every time we store store max and min value among three of them in maxEnd and minEnd respectively.<br>
 
 Then in ans we compare max of previous ans, maxEnd and minEnd. After for loop the max product will be in ans.  
 </p>

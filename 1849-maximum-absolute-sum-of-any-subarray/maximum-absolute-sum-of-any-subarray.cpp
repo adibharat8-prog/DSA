@@ -13,7 +13,7 @@ public:
             
             maxEnd = max(v1, max(v2,v3));
             minEnd = min(v1,min(v2,v3));
-            ans = max(abs(ans), max(abs(maxEnd), abs(minEnd)));
+            ans = max(ans, max(abs(maxEnd), abs(minEnd)));
         }
         return ans;
     }

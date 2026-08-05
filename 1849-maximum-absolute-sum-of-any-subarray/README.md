@@ -1,3 +1,16 @@
+<h2>Answer approach</h2>
+<p>
+Anwer ko initially abs se start kru kyuki agr ek hi element hua to firstly defined ans hi main answeer hoga mgr wo -ve hua to usse +ve krna pdega.<br>
+
+We take 2 variables maxEnd = max subarray sum at ith index, minEnd = min subarray sum at ith index.<br>
+
+Now simply like Kadane we iterate every element and store its max and min in maxEnd and minEnd, now  while storing in ans store max absoute value of ans, maxEnd, minEnd.<br>
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray">Maximum Absolute Sum of Any Subarray</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code>. The <strong>absolute sum</strong> of a subarray <code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> is <code>abs(nums<sub>l</sub> + nums<sub>l+1</sub> + ... + nums<sub>r-1</sub> + nums<sub>r</sub>)</code>.</p>
 
 <p>Return <em>the <strong>maximum</strong> absolute sum of any <strong>(possibly empty)</strong> subarray of </em><code>nums</code>.</p>

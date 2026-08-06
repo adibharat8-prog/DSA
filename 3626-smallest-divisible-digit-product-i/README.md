@@ -1,3 +1,12 @@
+<h2>Answer approcah</h2>
+<p>I make a function where I return the product of given number's digits and then in main function I make a while(true) loop, inside it I store the product of the digits of given number in a variable and then takes its modulo with t inside if.
+Then If (prod%t == 0)  return num and break else increase num by 1.</p>
+<br>
+<br>
+
+
+
+
 <h2><a href="https://leetcode.com/problems/smallest-divisible-digit-product-i">Smallest Divisible Digit Product I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given two integers <code>n</code> and <code>t</code>. Return the <strong>smallest</strong> number greater than or equal to <code>n</code> such that the <strong>product of its digits</strong> is divisible by <code>t</code>.</p>
 
 <p>&nbsp;</p>

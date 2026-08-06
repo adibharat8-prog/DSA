@@ -10,8 +10,12 @@ a) Already deleted one and just add new element: v3 = oneDel + a[i];<br>
 b) Not deleted yet so delete the current element: v4 = prevNoDel;  <br>
 (Means we store the value of noDel till (i-1) therefore before updating noDel for ith element we must store it inside another variable called prevNoDel)<br>
    &nbsp &nbsp     => oneDel = max(v3,v4);<br>
-Then as we need max so take max of ans, oneDel, noDel and return the ans.<br>
+Then as we need max so take max of ans, oneDel, noDel and return the ans.<br><br>
+If we update oneDelete first then for its second case we can directly use noDel, no need to store it in another variable (prevNoDel) as before updating noDel for ith index, it stored the best noDel of [i-1]. index
 </p>
+
+<br>
+<br>
 
 
 

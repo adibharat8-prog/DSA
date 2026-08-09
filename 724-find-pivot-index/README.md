@@ -1,3 +1,17 @@
+<h4>
+Approach 1: <br>
+We know leftPrefix store all elements sum before ith ele and rightSuffix store all elements sum after ith ele, hence we start leftPrefix with 0 and then use a for loop(i=0->n-1) then for every i we make rightSuffix = Sum - leftPrefix - nums[i] and then check if(leftPrefix == rightPrefix) return i or after for loop return -1.<br>
+This also handles the case when pivot is at 0th index.<br>
+
+Approach 2:<br>
+We make 2 vectors of prefixSum and SuffixSum as then in main function check that is prefixSum[i] == suffixSum[i] then return i or at end of for loop return -1. 
+</h4>
+
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/find-pivot-index">Find Pivot Index</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of integers <code>nums</code>, calculate the <strong>pivot index</strong> of this array.</p>
 
 <p>The <strong>pivot index</strong> is the index where the sum of all the numbers <strong>strictly</strong> to the left of the index is equal to the sum of all the numbers <strong>strictly</strong> to the index&#39;s right.</p>

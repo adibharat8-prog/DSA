@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+We first make a unordered map (due to constant time complexity of searching), a currSum and a cnt (count) here at first we insert a pair of {0,1} in map because of the subarray with no elements and then use a for loop, add every ith element to currSum. <br>
+Then make a variable of to store the currSum-k, then we check whether that variable exists in map or not, if exist then add its frequency in cnt. <br>
+Then add currSum in map and increase its frequnecy.  
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/subarray-sum-equals-k">Subarray Sum Equals K</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the total number of subarrays whose sum equals to</em> <code>k</code>.</p>
 
 <p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>

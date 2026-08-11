@@ -1,3 +1,15 @@
+<h2>Answer approach</h2>
+<p>
+1. Here first we store all elements and its frequency in an unordered map (because searching in it takes 0(N) time complexity).
+2. Then with a for loop we check the given condition of sequence and store its sum in sum variable.<br>
+3. Then once we find sum of subarray with correct sequence then we check whether that sum present or not, if its present then we increment sum till then it doesn't exist in it.<br>
+And at end of this while loop we return sum. 
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum">Smallest Missing Integer Greater Than Sequential Prefix Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a <strong>0-indexed</strong> array of integers <code>nums</code>.</p>
 
 <p>A prefix <code>nums[0..i]</code> is <strong>sequential</strong> if, for all <code>1 &lt;= j &lt;= i</code>, <code>nums[j] = nums[j - 1] + 1</code>. In particular, the prefix consisting only of <code>nums[0]</code> is <strong>sequential</strong>.</p>

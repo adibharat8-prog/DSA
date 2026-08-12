@@ -1,3 +1,13 @@
+<h2> Answer approach</h2>
+<p>
+Here we do same as sum == k.<br>
+We make an unordered_map to store rem (sum%k) and its frequency, then we do rem = sum%k and check whether the rem present in the map or not, if present then add its value in the count variable.<br>
+Then add the remainder (rem) in map.<br>
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/subarray-sums-divisible-by-k">Subarray Sums Divisible by K</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the number of non-empty <strong>subarrays</strong> that have a sum divisible by </em><code>k</code>.</p>
 
 <p>A <strong>subarray</strong> is a <strong>contiguous</strong> part of an array.</p>

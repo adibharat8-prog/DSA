@@ -1,3 +1,12 @@
+<h2>Answer approach </h2>
+<p>
+	Use variable size sliding window approach.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency">Length of Longest Subarray With at Most K Frequency</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>
 
 <p>The <strong>frequency</strong> of an element <code>x</code> is the number of times it occurs in an array.</p>

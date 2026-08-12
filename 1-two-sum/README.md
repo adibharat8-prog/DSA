@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+Here we make a hashmap to store the element and its index, then we check val = tar - nums[i] un hashmap, if exists then add the index and the val's value from map in the ans vector.<br>
+Return ans vector.  
+</p>
+<br>
+<br>
+
+
+
+
 <h2><a href="https://leetcode.com/problems/two-sum">Two Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>

@@ -7,8 +7,9 @@ public:
             int val = target - nums[i];
             if (mp.find(val) != mp.end()) {
                 ans.push_back(i);
-                int sec = mp.find(val)->second;
-                ans.push_back(sec);
+                ans.push_back(mp[val]);
+                // int sec = mp.find(val)->second;
+                // ans.push_back(sec);
                 break;
             }
             mp.insert({nums[i], i});

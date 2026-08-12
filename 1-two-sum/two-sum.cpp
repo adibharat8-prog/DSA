@@ -8,6 +8,7 @@ public:
             if (mp.find(val) != mp.end()) {
                 ans.push_back(i);
                 ans.push_back(mp[val]);
+                // Can be used also
                 // int sec = mp.find(val)->second;
                 // ans.push_back(sec);
                 break;

@@ -1,3 +1,16 @@
+<h2> Answer approach </h2>
+<p>
+In it we assume that 1->+1 and 0->-1 and make a sum = 0. Then we iterate for each variables in the given array, if we find 1 then we do sum++ and if we find 0 then we do sum--.<br>
+Then we check whether that sum available or not in the hashmap, if exists then means the number of ones and zeros are same in this subarray so we calculate the length and store its max in res. <br>
+But if not present then only we store then sum with the current index int the map.<br>
+<br>
+Remember, here we only store {sum,idx} in map when its not present and not update the index when it present because we need the longest length subarray that's why we only store the first occurence of the sum.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/contiguous-array">Contiguous Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary array <code>nums</code>, return <em>the maximum length of a contiguous subarray with an equal number of </em><code>0</code><em> and </em><code>1</code>.</p>
 
 <p>&nbsp;</p>

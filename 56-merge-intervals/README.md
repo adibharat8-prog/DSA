@@ -1,6 +1,21 @@
 <h2>Answer approach</h2>
 <p>
-Here we first sort the 2D-arrray then its a rule that if(end1>=start2) then the interval1 must need to be merged with interval2 and the resultant interval has start = start1 and end = max(end1, end2).<br>
+We need to sort the input array first (a necessary condition). Also, we maintain `start1`, `end1` and compare them with `start2`, `end2`.
+First, we sort the 2D array. Then, we follow this rule:
+	
+- If `end1 >= start2`, the two intervals overlap and need to be merged.
+- The resulting interval will have:
+  - `start = start1`
+  - `end = max(end1, end2)`
+
+- If the condition is false, the intervals do not overlap. Therefore:
+  1. Push `{start1, end1}` into the `ans` 2D vector.
+  2. Set `start1 = start2` and `end1 = end2`.
+  3. Continue the same process until the loop ends.
+
+At the end of the loop, the last merged/unmerged interval (`start1`, `end1`) is still left. Therefore, after the `for` loop, we need to push `{start1, end1}` into `ans`.
+	
+	Here we first sort the 2D-arrray then its a rule that if(end1>=start2) then the interval1 must need to be merged with interval2 and the resultant interval has start = start1 and end = max(end1, end2).<br>
 But if condition is false, then we first need to push the start1 and end1 into the ans 2D-vector and made start1 = start2 and end1=end2 and repeat the cycle again till loop ends.<br>
 <br>
 At end the start1 and end1 of last merged/unmerged interval left so after the end of the for loop we need to push back {start1,end1} into the ans.  

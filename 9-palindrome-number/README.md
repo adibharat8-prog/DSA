@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+Here we just store the given number in another var and then extract its last digit add it to a temp variable (temp = temp*10+d) and then remove that last digit from var, till num>0.<br>
+Then check whether that temp and given num is equal or not, if yes then return true and if not then return false.
+</p>
+<br>
+<br>
+
+
+
+
 <h2><a href="https://leetcode.com/problems/palindrome-number">Palindrome Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer <code>x</code>, return <code>true</code> if <code>x</code> is a <span data-keyword="palindrome-integer"><strong>palindrome</strong></span>, and <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>

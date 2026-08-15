@@ -1,3 +1,19 @@
+<h2>Answer approach</h2>
+<p>
+	Here we are given 2D array in ascending order w.r.t start so we need to give the newIntervals array also ascending w.r.t start for checking of overlapping intervals in the other function.<br>
+<br>
+So for that we start a loop on 2D array, intervals and check if their (interval's start > newInterval's start) then we need to put newInterval first int the resulting newIntervals array, and then after it just push each interval of intervals array in newIntervals 2D array.<br>
+<br>
+But if newInterval's start is biggest then we put it at the end of the newIntervals's 2D array therefore we made a boolean var that becomes true when the newInterval is inserted, then we check whether newInterval pushed or not [ if(!var) ] if not then push the newInterval in the end of for loop.<br>
+<br>
+After that we simply apply the algorith for checking any overlapping of intervals and return the final ans 2D array
+</p>
+<br>
+<br>
+
+
+
+
 <h2><a href="https://leetcode.com/problems/insert-interval">Insert Interval</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array of non-overlapping intervals <code>intervals</code> where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> represent the start and the end of the <code>i<sup>th</sup></code> interval and <code>intervals</code> is sorted in ascending order by <code>start<sub>i</sub></code>. You are also given an interval <code>newInterval = [start, end]</code> that represents the start and end of another interval.</p>
 
 <p>Two intervals are considered overlapping if they share <strong>at least</strong> one point.</p>

@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+	Here we start to iterate form end of the string and use two while loops:<br>
+1. For parsing all the black spaces and reached to a word from end.<br>
+2. To calculate the length of that last word.<br>
+</p>
+
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/length-of-last-word">Length of Last Word</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code> consisting of words and spaces, return <em>the length of the <strong>last</strong> word in the string.</em></p>
 
 <p>A <strong>word</strong> is a maximal <span data-keyword="substring-nonempty">substring</span> consisting of non-space characters only.</p>

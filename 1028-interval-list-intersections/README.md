@@ -1,3 +1,22 @@
+<h2>Answer approach</h2>
+<p>
+	Here we make firstList as i and secondList as j then run while loop till both i and j comes to their last array, here we have two conditions:-<br>
+1. If start1 <= start2  (normal merge condition, ascending sort by start)<br>
+    Then we check our normal overlapping condition (end1>=start2) then the intersected interval's start = max(S1,S2) and end = min(E1,E2).<br>
+<br>
+2. If start1>=start2 (opposite of normal merge condition, descending sort by start)<br>
+    Then we check our opposite overlapping condition (end2>=start1) then the intersected interval is same as above one.
+<br>
+	<br>
+Now incrementation of i and j:<br>
+If end1 ends first than end2 so we need to increase i->i+1 because their will be chances that new interval will overlap the existing end2 interval.<br>
+else increase j->j+1 by the same opposite reason of above.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/interval-list-intersections">Interval List Intersections</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two lists of closed intervals, <code>firstList</code> and <code>secondList</code>, where <code>firstList[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> and <code>secondList[j] = [start<sub>j</sub>, end<sub>j</sub>]</code>. Each list of intervals is pairwise <strong>disjoint</strong> and in <strong>sorted order</strong>.</p>
 
 <p>Return <em>the intersection of these two interval lists</em>.</p>

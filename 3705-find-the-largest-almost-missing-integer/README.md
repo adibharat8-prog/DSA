@@ -1,3 +1,21 @@
+<h2>Answer aprroach</h2>
+<p>
+	Here we asked to found the element who appear once in all the subarrays of size k of nums, if that element occurs more than once in the same subarray then its okay, we need to check between subarrays not within subarray.
+<br>
+	<br>
+	We make the low=0 and high=k-1 and make subarrays of size k then we store each element of the subarray in the UNORDERED_SET so that each element appears once within a subarray, then we store all elements and their frequencies from set to the hashmap.
+<br>
+	<br>
+	Then we traverse the whole map and check the key (x.first) whose frequency is equals to 1 (x.second == 1), then store its value in the var variable (var initiated with -1 and store the maximum key whose frequency is 1) and set a bool variable to true after storing in var variable.
+<br>
+	<br>
+	After that while loop we return <bool_var>? val : -1  (if bool var is ture then return val, if false then return -1)
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/find-the-largest-almost-missing-integer">Find the Largest Almost Missing Integer</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>
 
 <p>An integer <code>x</code> is <strong>almost missing</strong> from <code>nums</code> if <code>x</code> appears in <em>exactly</em> one subarray of size <code>k</code> within <code>nums</code>.</p>

@@ -1,3 +1,18 @@
+<h2>Answer approach</h2>
+<p>
+	Here we have asked to find an element such that if we make all subarrays of size k from given array then that element will come only once, that element can itself comes as many time as it want in the same array but it must come only once among all the subarrays of size k.
+<br>
+So for it we use sliding window, here we first store all elements of the window in the the unordered set (so that each element can come only once) then we use for loop on set and store its each value and their frequency in hashmap (so that only frequency of those elements who occurs multiple times in different subarrays will be count) and increment low and high.
+<br>
+Now after all windows end we iterate hashmap with for loop then check the element whose frequency will be 1 and store that max element in the val variable and made found = true.
+<br>
+At end if found = true, return val else -1.
+</p>
+
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/find-the-largest-almost-missing-integer">Find the Largest Almost Missing Integer</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>
 
 <p>An integer <code>x</code> is <strong>almost missing</strong> from <code>nums</code> if <code>x</code> appears in <em>exactly</em> one subarray of size <code>k</code> within <code>nums</code>.</p>

@@ -1,3 +1,18 @@
+<h2>Answer approach</h2>
+<p>
+	Here we make 2 arrays and as per question we puush_back first element of given array in arr1 and second one in arr2, now we run a loop for (i=2:n) and check-<br>
+arr1 last ele > arr2 last ele => arr1 push_back the ith index element of given array.<br>
+else => arr2.push_back the ith index element of given array.<br>
+It goes on till end of the given array.<br>
+<br>
+Here we use two vector functions:-<br>
+1. <vector>.back() - It helps to get the last element of the vector.<br>
+2. <vector>.push_back() - It helps to add an element at end.<br>
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/distribute-elements-into-two-arrays-i">Distribute Elements Into Two Arrays I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a <strong>1-indexed</strong> array of <strong>distinct</strong> integers <code>nums</code> of length <code>n</code>.</p>
 
 <p>You need to distribute all the elements of <code>nums</code> between two arrays <code>arr1</code> and <code>arr2</code> using <code>n</code> operations. In the first operation, append <code>nums[1]</code> to <code>arr1</code>. In the second operation, append <code>nums[2]</code> to <code>arr2</code>. Afterwards, in the <code>i<sup>th</sup></code> operation:</p>

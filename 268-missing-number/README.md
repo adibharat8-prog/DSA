@@ -5,7 +5,7 @@
 2. By n(n+1)/2 <br> 
 3. By hashmap <br>
 <br>
-(All approaches code are written in code palate)
+(All approaches codes are written in code palate)
 </p>
 
 <br>

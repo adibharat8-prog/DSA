@@ -1,3 +1,25 @@
+<h2>Answer approach</h2>
+<p>
+	Here we need to find min operations required to remove the maximum and minimum elements from the array.<br>
+For it we first run a loop and store indices of max and min elements, then<br>
+we have 3 choices to find min no of operations:<br>
+1. If max and min elements are either sides of mid (left-right or right-left)<br>
+    a = min(maxIdx, minIdx) + 1;<br>
+    b = n - max(maxIdx, minIdx)<br>
+    res1 = a+b<br>
+<br>
+2. If both max and min elements are at right of mid, then<br> 
+    res2 = n - min(maxIdx , minIdx)<br>
+<br>
+3. If both max and min elements are at the left of mid, then<br>
+    res3 = max(maxIdx , minIdx) + 1;<br>
+<br>
+final output min(res1,res2,res3)<br>
+</p>
+
+<br>
+<br>
+
 <h2><a href="https://leetcode.com/problems/removing-minimum-and-maximum-from-array">Removing Minimum and Maximum From Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> array of <strong>distinct</strong> integers <code>nums</code>.</p>
 
 <p>There is an element in <code>nums</code> that has the <strong>lowest</strong> value and an element that has the <strong>highest</strong> value. We call them the <strong>minimum</strong> and <strong>maximum</strong> respectively. Your goal is to remove <strong>both</strong> these elements from the array.</p>

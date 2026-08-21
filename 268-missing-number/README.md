@@ -1,3 +1,17 @@
+<h2>Answer approach</h2>
+<p>
+	This question has 3 methods to solve <br>
+1. By XOR <br>
+2. By n(n+1)/2 <br> 
+3. By hashmap <br>
+<br>
+(All approaches code are written in code palate)
+</p>
+
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/missing-number">Missing Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
 
 <p>&nbsp;</p>

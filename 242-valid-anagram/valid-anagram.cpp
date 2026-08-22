@@ -1,23 +1,24 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        bool found = true;
         if(s.length() != t.length()){
             return false;
         }
-
-        vector <int> arr(256,0);    //Can be arr(26,0) -> only small alphabets needed
-        
-        for(int i=0; i<s.length(); i++){
-            arr[s[i] - 'a']++;
+        unordered_map<char,int> mp;
+        for(char ch: s){
+            mp[ch]++;
         }
 
-        for(int i=0; i<t.length(); i++){
-            arr[t[i] - 'a']--;
-            if (arr[t[i] - 'a'] < 0){
-                return false;
+        for(char ch: t){
+            mp[ch]--;
+        }
+
+        for(auto x: mp){
+            if(x.second != 0){
+                found = false;
             }
         }
-        return true;
-        
+        return found;
     }
 };

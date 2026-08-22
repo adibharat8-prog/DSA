@@ -1,24 +1,20 @@
 class Solution {
 public:
     string removeDuplicates(string s) {
-        stack<char> st;
+        //Using string as a stack, so that we not need to revrse the string
+
+        string ans;
         for(char ch: s){
-            if(!st.empty()){
-                if(st.top() == ch){
-                st.pop();
+            if(ans.length() != 0){
+                if(ans.back() == ch){   //To check last element of string 
+                    ans.pop_back();     //To delete from last of string
                 }else{
-                    st.push(ch);
+                    ans.push_back(ch);  //To put at last of string
                 }
             }else{
-                st.push(ch);
+                ans.push_back(ch);
             }
         }
-        string ans="";
-        while(!st.empty()){
-            ans = ans + st.top();
-            st.pop();
-        }
-        reverse(ans.begin(),ans.end());
         return ans;
     }
 };

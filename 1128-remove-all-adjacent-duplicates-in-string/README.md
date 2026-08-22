@@ -1,3 +1,15 @@
+<h2>Answer approach</h2>
+<P>
+	This question needs to be done by stack as it helps to remove the adjacent element<br>
+	1. First Approach using normal stack, but first push all stack's element in string then need to reverse it.<br>
+	2. Using string as stack and here no need to reverse as we directly return string.<br>
+	s.push_back(), s.pop_back(), s.back() -> last element of string
+</P>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string">Remove All Adjacent Duplicates In String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string <code>s</code> consisting of lowercase English letters. A <strong>duplicate removal</strong> consists of choosing two <strong>adjacent</strong> and <strong>equal</strong> letters and removing them.</p>
 
 <p>We repeatedly make <strong>duplicate removals</strong> on <code>s</code> until we no longer can.</p>

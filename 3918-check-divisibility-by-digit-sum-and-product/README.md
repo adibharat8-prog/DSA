@@ -1,3 +1,11 @@
+<h2>Answer approach</h2>
+<p>
+	Here we make a function to get the sum of sum and product of all digits then return it, then in main function we check whether if (num%n == 0) yes => return true else return false.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product">Check Divisibility by Digit Sum and Product</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a positive integer <code>n</code>. Determine whether <code>n</code> is divisible by the <strong>sum </strong>of the following two values:</p>
 
 <ul>

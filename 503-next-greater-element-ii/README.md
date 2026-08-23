@@ -1,3 +1,14 @@
+<h2>Answer approach</h2>
+<p>
+	Here we assume a copy of array is placed at front of it.<br>
+Then we bind it using idx = i%n;<br>
+For better understanding understand the code<br>
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/next-greater-element-ii">Next Greater Element II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a circular integer array <code>nums</code> (i.e., the next element of <code>nums[nums.length - 1]</code> is <code>nums[0]</code>), return <em>the <strong>next greater number</strong> for every element in</em> <code>nums</code>.</p>
 
 <p>The <strong>next greater number</strong> of a number <code>x</code> is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn&#39;t exist, return <code>-1</code> for this number.</p>

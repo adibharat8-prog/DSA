@@ -2,7 +2,7 @@
 <p>
 	We can use two pointer approach but then the TC will be O(n^2).<br>
 <br>
-Here we store index in stack firstly we store last element to be 0 in ans. Then we use a for(i=n-2 : 0 ) then we check whether the stack is not empty and if temp[st.top()] <= nums[i] (opposite condition) then pop.<br>
+Here we store index (because we need to asked for number of days for next temp not the next temp itsel) in stack firstly we store last element to be 0 in ans. Then we use a for(i=n-2 : 0 ) then we check whether the stack is not empty and if temp[st.top()] <= nums[i] (opposite condition) then pop.<br>
 <br>
 
 Then after this only those cases come where stack is not empty and condition is correct then if stack is empty, just put ans[i] = 0, else (if cond. is correct) then do ans[i] = st.top-i,<br>

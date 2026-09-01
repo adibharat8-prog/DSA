@@ -1,5 +1,7 @@
 <h2>Answer approach</h2>
 <p>
+	Here array is circular so each element will get (n-1) elements to choose the greatest, like (n=3) a[0] = a[1],a[2], a[1] = a[2],a[0] and a[2] = a[0][1]. As we start traversing from end and we need to give n-1 choices to each element that's why we first append elements from n-2 to 0 into stack (reverse order because a[n-1] need a[0],a[1]...) and in STACK LIFO is followed.<br>
+	then in main for(i=n-1:0) loop we start comparing while (not empty and false cond) pop, if(empty) then push -1 in ans else (if cond true) then push st.top() to ans.<br>
 	Here we assume a copy of array is placed at front of it.<br>
 Then we bind it using idx = i%n;<br>
 For better understanding understand the code<br>

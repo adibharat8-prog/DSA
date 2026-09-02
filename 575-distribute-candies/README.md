@@ -1,3 +1,20 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we store all types of candies with its freq in hashmap, then use a for loop where we inc count only till it is less then n/2 then return cnt.<br>
+<br>
+Its another approach, here we similarly first stored in hashmap then use a for loop to store all key in a set then we check if set.size() > n/2 return set.size() else return n/2.<br>
+<br>
+		set {int} st;<br>
+		for(int x: candyType){<br>
+            st.insert(x);<br>
+        }<br>
+		int n = candyType.size();<br>
+        return (st.size() < n/2)? st.size(): n/2;<br>
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/distribute-candies">Distribute Candies</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Alice has <code>n</code> candies, where the <code>i<sup>th</sup></code> candy is of type <code>candyType[i]</code>. Alice noticed that she started to gain weight, so she visited a doctor.</p>
 
 <p>The doctor advised Alice to only eat <code>n / 2</code> of the candies she has (<code>n</code> is always even). Alice likes her candies very much, and she wants to eat the maximum number of different types of candies while still following the doctor&#39;s advice.</p>

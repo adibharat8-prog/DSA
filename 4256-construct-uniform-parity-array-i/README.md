@@ -1,3 +1,13 @@
+<h2>Answer Approach</h2>
+<p>
+	Here if nums1 is all even/odd then nums2 will also be all even/odd and return true.<br>
+And when all elements is a mixture of even and odd but it always gives true. 
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/construct-uniform-parity-array-i">Construct Uniform Parity Array I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an array <code>nums1</code> of <code>n</code> <strong>distinct</strong> integers.</p>
 
 <p>You want to construct another array <code>nums2</code> of length <code>n</code> such that the elements in <code>nums2</code> are either <strong>all odd or all even</strong>.</p>

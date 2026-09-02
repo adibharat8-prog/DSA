@@ -1,6 +1,8 @@
 <h2>Answer approach</h2>
 <p>
-	Here we first store all elements and its frequency to hashmap and then apply a loop on map and check if any element's freq (x.second>1) then return true, and at the end of loop return false.<br>
+	Here we first add all elements and its frequency to hashmap and then with another loop we check if any element's freq > 2 then return true or after end of this loop return false.<br>
+<br>
+Optimal Approach: We can solve this in only one loop, we only want if any element occurs twice not every element's freq. So we can use a hashmap or a set or a unordered_set then inside same for loop first check if the element already exists in map/set or not if yes then return true, then add that element in map/set. At the end of this loop return false.
 </p>
 <br>
 <br>

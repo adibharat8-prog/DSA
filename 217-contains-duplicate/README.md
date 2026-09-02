@@ -1,3 +1,12 @@
+<h2>Answer approach</h2>
+<p>
+	Here we first store all elements and its frequency to hashmap and then apply a loop on map and check if any element's freq (x.second>1) then return true, and at the end of loop return false.<br>
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/contains-duplicate">Contains Duplicate</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and return <code>false</code> if every element is distinct.</p>
 
 <p>&nbsp;</p>

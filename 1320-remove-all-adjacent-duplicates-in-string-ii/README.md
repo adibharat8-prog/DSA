@@ -1,3 +1,21 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we need to remove k adjacent elements, adjacent => stack is used.<br>
+Therefore we use simple flow-<br>
+If !st.empty() and TOS = s[i] then inside it if st.top().second < (k-1) then just do st.top().second++ else st.pop() (Now all k adjacent duplicates are removed).<br>
+<br>
+But if st.empty() (empty stack) then st.push({s[i],1}), if st.top().first != s[i] (ith char is not the same as TOS) then st.push({s[i],1}].<br>
+<br>
+But use above edge cases first then the case when we check for k-1.<br>
+<br>
+Then we use while(!st.empty()) we store each pair's ch and cnt and use another while(cnt>0) then ans.push_back(ch) and c--.
+Then at end reverse the ans string and return it.<br>
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii">Remove All Adjacent Duplicates in String II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> and an integer <code>k</code>, a <code>k</code> <strong>duplicate removal</strong> consists of choosing <code>k</code> adjacent and equal letters from <code>s</code> and removing them, causing the left and the right side of the deleted substring to concatenate together.</p>
 
 <p>We repeatedly make <code>k</code> <strong>duplicate removals</strong> on <code>s</code> until we no longer can.</p>

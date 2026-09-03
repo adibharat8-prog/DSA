@@ -11,6 +11,7 @@ public:
             cnt++;
             st.insert(x.second);
         }
-        return (st.size() == cnt)? true: false;
+        return (st.size() == cnt);
+        //return (st.size() == cnt)? true: false;   can be written also 
     }
 };

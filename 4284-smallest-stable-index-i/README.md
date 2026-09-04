@@ -1,3 +1,15 @@
+<h2>Answer approach</h2>
+<p>
+	Here we solve it in O(n^2) TC, we just run a main for loop and inside them a for loop(j=0 ->i) and another for loop(L=i ->n) and find its max and min for each main i. Then find (max-min) if it is <= k then compare with its index with previous correct index and store its min.<br>
+(We need to make maxi and mini inside main for loop else they will never change)<br>
+<br>
+At end of main for loop, if we find any index then return its smallest value else return -1.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/smallest-stable-index-i">Smallest Stable Index I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>.</p>
 
 <p>For each index <code>i</code>, define its <strong>instability score</strong> as <code>max(nums[0..i]) - min(nums[i..n - 1])</code>.</p>

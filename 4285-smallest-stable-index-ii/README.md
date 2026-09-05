@@ -1,3 +1,18 @@
+<h2>Answer approach</h2>
+<p>
+	Here we make two arrays:<br>
+1. From 1->n, max from every 0->i index and starting from maxi[0] = nums[0]<br>
+2. From n-2->0, min from every n-2->i and ending from mani[n-1] = nums[n-1]<br>
+Then we use for(i=0->n) in nums, if val = maxi[i] - mini[i] <= k then return i else after whole nums array traversal return -1.<br>
+<br>
+Another approach (2 for loops)<br>
+We only make maxi array from n-2 -> 0 then start a for loop (i=0 -> n-1) on nums and find max for each element then if if val = maxi - mini[i] <= k then return i else after whole nums array traversal return -1.<br>
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/smallest-stable-index-ii">Smallest Stable Index II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>.</p>
 
 <p>For each index <code>i</code>, define its <strong>instability score</strong> as <code>max(nums[0..i]) - min(nums[i..n - 1])</code>.</p>

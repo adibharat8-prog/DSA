@@ -1,12 +1,3 @@
-<h2>Answer approach</h2>
-<p>
-	Start from the last digit and move left while the digit is `9`. When you find the rightmost digit that is not `9`, increment it by `1` and set all digits after it to `0`. If all digits are `9`, create a new vector of size `n+1` with the first digit as `1` and the rest `0` (e.g., `999 → 1000`). <br>
-TC: O(n), SC: O(n) in my implementation because of the extra ans vector.
-</p>
-<br>
-<br>
-
-
 <h2><a href="https://leetcode.com/problems/plus-one">Plus One</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a <strong>large integer</strong> represented as an integer array <code>digits</code>, where each <code>digits[i]</code> is the <code>i<sup>th</sup></code> digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading <code>0</code>&#39;s.</p>
 
 <p>Increment the large integer by one and return <em>the resulting array of digits</em>.</p>

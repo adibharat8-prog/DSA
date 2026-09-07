@@ -1,3 +1,13 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we make a hashmap and store each character and its freq then iterate on the given string then if mp[s[i]] == 1 return i else after for loop return -1.<br>
+<br>
+This is always in arranged form because we always iterate main loop in sequence and store in map.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/first-unique-character-in-a-string">First Unique Character in a String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code>, find the <strong>first</strong> non-repeating character in it and return its index. If it <strong>does not</strong> exist, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>

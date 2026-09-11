@@ -1,3 +1,13 @@
+<h2>Answer approach</h2>
+<p>
+	Here we first store each element in a hashmap and then traverse from i=100 to 999 (3 digit number) then for each number check if its even and then check if its each digit exists in hashmap or not and if exists then freq>0 or not if yes then freq-- else return false. But if all conditions are true and while loop completed successfully then return true.<br>
+<br>
+We do this each number checking part in a seperate function and is if return true then do count ++ and at last return 0 if all digits in the array is odd else return the count.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/unique-3-digit-even-numbers">Unique 3-Digit Even Numbers</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an array of digits called <code>digits</code>. Your task is to determine the number of <strong>distinct</strong> three-digit even numbers that can be formed using these digits.</p>
 
 <p><strong>Note</strong>: Each <em>copy</em> of a digit can only be used <strong>once per number</strong>, and there may <strong>not</strong> be leading zeros.</p>

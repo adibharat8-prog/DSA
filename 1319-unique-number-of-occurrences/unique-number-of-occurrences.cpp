@@ -12,6 +12,5 @@ public:
             st.insert(x.second);
         }
         return (st.size() == cnt);
-        //return (st.size() == cnt)? true: false;   can be written also 
     }
 };

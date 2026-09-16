@@ -1,3 +1,12 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we just count the number of elements that are not divisible by 3 because we just have to do 1 operation to make that not divisible divisible so we count the not divisible elemnts and return it.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three">Find Minimum Operations to Make All Elements Divisible by Three</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code>. In one operation, you can add or subtract 1 from <strong>any</strong> element of <code>nums</code>.</p>
 
 <p>Return the <strong>minimum</strong> number of operations to make all elements of <code>nums</code> divisible by 3.</p>

@@ -1,3 +1,11 @@
+<h1>Answer Approach</h1>
+<p>
+	Here we just iterate the array and calculate its element's sum and each digit of the element.<br>
+Then return their difference.
+</p>
+<br>
+<br>
+
 <h2><a href="https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array">Difference Between Element Sum and Digit Sum of an Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a positive integer array <code>nums</code>.</p>
 
 <ul>

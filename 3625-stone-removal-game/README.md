@@ -1,3 +1,12 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we just check for all cases of Alice winning.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/stone-removal-game">Stone Removal Game</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Alice and Bob are playing a game where they take turns removing stones from a pile, with <em>Alice going first</em>.</p>
 
 <ul>

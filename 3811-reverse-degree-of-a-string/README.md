@@ -1,11 +1,3 @@
-<h2>Answer Approach</h2>
-<p>
-	Here we just find the equivalent number of each character and return the sum of number and their position at end.
-</p>
-<br>
-<br>
-
-
 <h2><a href="https://leetcode.com/problems/reverse-degree-of-a-string">Reverse Degree of a String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code>, calculate its <strong>reverse degree</strong>.</p>
 
 <p>The <strong>reverse degree</strong> is calculated as follows:</p>

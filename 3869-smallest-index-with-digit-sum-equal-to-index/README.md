@@ -1,3 +1,12 @@
+<h2>Answer approach</h2>
+<p>
+	Here we just iterate to each element of the array and find the sum of all the digits of that element using another function then check if the sum == index(i), return i else continue.<br>
+After the main for loop return -1 (no such element found).
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index">Smallest Index With Digit Sum Equal to Index</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code>.</p>
 
 <p>Return the <strong>smallest</strong> index <code>i</code> such that the sum of the digits of <code>nums[i]</code> is equal to <code>i</code>.</p>

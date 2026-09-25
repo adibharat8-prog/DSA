@@ -1,3 +1,12 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we iterate for all the numbers in the given range and then each element we get their digits and put it into an array then we search for peak or valley in array (from 0 to n-1) then do res++, then this res will be returned from the function in main function and then add all such res and return it.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/total-waviness-of-numbers-in-range-i">Total Waviness of Numbers in Range I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two integers <code>num1</code> and <code>num2</code> representing an <strong>inclusive</strong> range <code>[num1, num2]</code>.</p>
 
 <p>The <strong>waviness</strong> of a number is defined as the total count of its <strong>peaks</strong> and <strong>valleys</strong>:</p>

@@ -1,3 +1,11 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we just need to find the magnitude of the distance between x-z and y-z, then return the one which has minimum distance.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/find-closest-person">Find Closest Person</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p data-end="116" data-start="0">You are given three integers <code data-end="33" data-start="30">x</code>, <code data-end="38" data-start="35">y</code>, and <code data-end="47" data-start="44">z</code>, representing the positions of three people on a number line:</p>
 
 <ul data-end="252" data-start="118">

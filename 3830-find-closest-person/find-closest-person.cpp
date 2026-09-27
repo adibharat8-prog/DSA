@@ -6,7 +6,7 @@ public:
         }else if (abs(z-x) == abs(y-z)){
             return 0;
         }else{
-            return 2; 
-        }  
+            return 2;
+        }
     }
 };

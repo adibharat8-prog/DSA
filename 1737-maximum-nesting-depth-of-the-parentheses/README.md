@@ -1,3 +1,13 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we make a stack and cnt, maxCount variable, then use a for loop on given string, if the char is '(' then push and cnt++ and if char is ')' then update the maximum count and pop then cnt--.<br>
+At the end return maximum count.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses">Maximum Nesting Depth of the Parentheses</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a <strong>valid parentheses string</strong> <code>s</code>, return the <strong>nesting depth</strong> of<em> </em><code>s</code>. The nesting depth is the <strong>maximum</strong> number of nested parentheses.</p>
 
 <p>&nbsp;</p>

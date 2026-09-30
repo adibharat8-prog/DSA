@@ -1,3 +1,12 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we just move according to the rule given in question.<br>
+We need to start from front not from end as per question's direction (I moved from end first).
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/alternating-digit-sum">Alternating Digit Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a positive integer <code>n</code>. Each digit of <code>n</code> has a sign according to the following rules:</p>
 
 <ul>

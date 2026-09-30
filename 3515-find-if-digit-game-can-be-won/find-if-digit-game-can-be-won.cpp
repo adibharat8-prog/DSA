@@ -12,6 +12,6 @@ public:
                 ans2 += stoi(a);
             }
         }
-        return (ans1==ans2)? false : true ; 
+        return ans1!=ans2; 
     }
 };

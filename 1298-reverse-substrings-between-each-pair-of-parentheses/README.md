@@ -1,3 +1,16 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we just need to know how to reverse a substring of a string.<br>
+reverse(s.begin()+start, s.begin()+end)<br>
+<br>
+In this we make a stack which stores the the index of open parenthesis and and when close parenthesis came we just reverse the that substring innermost parenthesis (substring's start is from st.top()+1 till i-1, we repeatedly do this till the end of the given substring. (Here we do reverse in-place)
+<br>
+Now we have the correct order substring but with parenthesis so we make another loop on given reversed string and make an answer string where we concatenate each character instead of the brackets then return it.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses">Reverse Substrings Between Each Pair of Parentheses</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> that consists of lower case English letters and brackets.</p>
 
 <p>Reverse the strings in each pair of matching parentheses, starting from the innermost one.</p>

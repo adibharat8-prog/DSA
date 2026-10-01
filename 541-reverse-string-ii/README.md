@@ -1,3 +1,15 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we use need reverse the part of string or whole string as per the rules given, so we just use reverse inbuilt property.
+<br>
+reverse(s.begin()+i, s.begin()+ min((s+k), s.length())<br>
+then update i = i+2*k<br>
+lastly return given string s (as this is in-place reversal).
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/reverse-string-ii">Reverse String II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code> and an integer <code>k</code>, reverse the first <code>k</code> characters for every <code>2k</code> characters counting from the start of the string.</p>
 
 <p>If there are fewer than <code>k</code> characters left, reverse all of them. If there are less than <code>2k</code> but greater than or equal to <code>k</code> characters, then reverse the first <code>k</code> characters and leave the other as original.</p>

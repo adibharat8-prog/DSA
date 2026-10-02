@@ -6,9 +6,7 @@ public:
         }else if(abs(s[0] - t[0]) == abs(s[1] - t[1]) || s[0]==t[0] || s[1] == t[1]){
             return 1;
         }else{
-            //int ans = min(abs(s[0]-t[0]) , abs(s[1]-t[1]));
             return 2;
-            //return min(s[0],s[1]);
         }
     }
 };

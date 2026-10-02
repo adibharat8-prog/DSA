@@ -1,3 +1,14 @@
+<h2>Answer Approach</h2>
+<p>
+Here we have given queen so we just need to check 3 cases as queen max need 2 moves to reach any pos.<br>
+0 moves: When source and target both at same place.<br>
+1 moves: When source and target are vertically or horizontally or diagonally aligned.<br>
+2 moves: For any other cases of positions.<br>
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/minimum-queen-moves-to-reach-target">Minimum Queen Moves to Reach Target</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>There is an <code>8 x 8</code> empty chessboard with <strong>1-indexed</strong> rows and columns.</p>
 
 <p>You are given an array <code>source = [sr, sc]</code> representing the starting position of a <strong>queen</strong>, and an array <code>target = [tr, tc]</code> representing the target position.</p>

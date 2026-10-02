@@ -1,3 +1,15 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we need to check given s and t are both need to be on either white or black, if one on blsck and another on white then its s can't reach to t and ans will be -1.<br>
+We apply a logic if both difference of s[0] and s[1] and t[0] or t[1] divisible by 2 or not then only they must be on same colors.<br>
+Then check for:<br>
+1. 0 moves: When both are on same block<br>
+2. 1 moves: When both are diagonally aligned<br>
+3. 2 moves: Any other cases <br>
+</p>
+<br>
+<br>
+
 <h2><a href="https://leetcode.com/problems/minimum-bishop-moves-to-reach-target">Minimum Bishop Moves to Reach Target</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>There is an <code>8 x 8</code> empty chessboard with <strong>1-indexed</strong> rows and columns.</p>
 
 <p>You are given an array <code>source = [sr, sc]</code> representing the starting position of a <strong>bishop</strong>, and an array <code>target = [tr, tc]</code> representing the target position.</p>

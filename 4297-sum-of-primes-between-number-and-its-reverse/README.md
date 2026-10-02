@@ -1,3 +1,14 @@
+<h2>Answer Approach</h2>
+<p>
+	In this question we need to return the sum of the all prime numbers between n to reversed n.<br>
+So we just use explicit conversion and then run a for loop from n1 to n2 then check is all numbers between them is prime or not by the logit (i*i <=num) and (num%i==0) then return true or false according to it.<br>
+Then if true then add the number in ans if not then simply continue. <br>
+Return ans
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse">Sum of Primes Between Number and Its Reverse</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer <code>n</code>.</p>
 
 <p>Let <code>r</code> be the integer formed by reversing the digits of <code>n</code>.</p>

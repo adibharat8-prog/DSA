@@ -1,3 +1,14 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we do it in n^2 we make temp variable that stores all subarray's sum and refresh to 0 when i changes (outer loop) then we check if len of that subarray is odd then add that subarray's sum to ans.<br>
+<br>
+Ans at the end of the given array (outer loop) return ans.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays">Sum of All Odd Length Subarrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of positive integers <code>arr</code>, return <em>the sum of all possible <strong>odd-length subarrays</strong> of </em><code>arr</code>.</p>
 
 <p>A <strong>subarray</strong> is a contiguous subsequence of the array.</p>

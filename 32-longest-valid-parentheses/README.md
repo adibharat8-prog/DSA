@@ -1,3 +1,15 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we make a stack ans = 0 variable to store indexes of brackets not brackets itself, then initially put -1 in it.
+Then we run a for loop on given string and if element is '(' then push its index on stack but is anything else so pop, then we check is stack is empty or not is empty then push the i on stack but if not then calculate ans = max(ans, i-st.top()).<br>
+<br>
+Return ans.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/longest-valid-parentheses">Longest Valid Parentheses</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, return <em>the length of the longest valid (well-formed) parentheses </em><span data-keyword="substring-nonempty"><em>substring</em></span>.</p>
 
 <p>&nbsp;</p>

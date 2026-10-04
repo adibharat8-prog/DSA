@@ -1,3 +1,12 @@
+<h2>Answer Approach</h2>
+<p>
+	Here it is just like a circle circumference is we have a part of it then the rest part will be the circumference - that known part.<br>
+Similarly here we have boundary of 10 (0-9) then we have two choices, |val1-val2| or 10-|val1-val2| then its minimum is the required rotations then add the minimum in the sum, do this in whole string and return the ans.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i">Minimum Rotations to Dial a Number I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string <code>s</code> of length 10 consisting of digits.</p>
 
 <p>The dial contains the digits 0 through 9 in order and is <strong>circular</strong>, so 0 and 9 are adjacent. The pointer initially points to 0.</p>

@@ -1,3 +1,13 @@
+<h2>Answer Approach</h2>
+<p>
+	Here we need to reverse the linked list so we make two pointers as curr and prev meaning as per their names run a while loop till curr!=NULL then we we make another pointer as temp to store the next node's address from curr then make curr->next = prev, prev = curr and curr = temp.<br>
+<br>
+Then after end of while loop curr will be at NULL (curr!=NULL) and prev will be at the last node or the head of the new reversed node so we return prev.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/reverse-linked-list">Reverse Linked List</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given the <code>head</code> of a singly linked list, reverse the list, and return <em>the reversed list</em>.</p>
 
 <p>&nbsp;</p>

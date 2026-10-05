@@ -1,3 +1,16 @@
+<h2>Answer Approach</h2>
+<p>
+	Here the sum of week1,2,3 forms an AP 28,35,42,...<br>
+So we first need to get that how many weeks and remaining days left in the given days by divide (week) and modulo (days) then we find week by sum of AP Sn = n(2*a + (n-1)*d)/2 then for remaining days we use this formula:<br>
+ans += days * (weeks+1);<br>
+ans += days * (days-1)/2;<br>
+<br>
+We make a variable ans that stores sum of AP then above two expressions also then just return the ans.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/calculate-money-in-leetcode-bank">Calculate Money in Leetcode Bank</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Hercy wants to save money for his first car. He puts money in the Leetcode&nbsp;bank <strong>every day</strong>.</p>
 
 <p>He starts by putting in <code>$1</code> on Monday, the first day. Every day from Tuesday to Sunday, he will put in <code>$1</code> more than the day before. On every subsequent Monday, he will put in <code>$1</code> more than the <strong>previous Monday</strong>.<span style="display: none;"> </span></p>

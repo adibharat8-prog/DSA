@@ -1,3 +1,15 @@
+<h2>Answer approach</h2>
+<p>
+	Here we first need to get to the left in the LL then start reversing from their with its logic, we need to remember the pos of node at left and a node before it so we make t and before = NULL (pointers) that do the respective work, we make a pos = 0 then inside while(t!=NULL) check while(pos less than left) make before to t and then t=t->next and pos++, at the end of this while loop we left we are at left so we start reversing it till len = r - l + 1 not equal to 0.<br>
+<br>
+Then now only connections left so we check we connect t->next = curr and before->next = prev then return head.<br>
+<br>
+If left starts from then check if(before == NULL) means we are already at left so here return prev as after reversal its the new head.
+</p>
+<br>
+<br>
+
+
 <h2><a href="https://leetcode.com/problems/reverse-linked-list-ii">Reverse Linked List II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given the <code>head</code> of a singly linked list and two integers <code>left</code> and <code>right</code> where <code>left &lt;= right</code>, reverse the nodes of the list from position <code>left</code> to position <code>right</code>, and return <em>the reversed list</em>.</p>
 
 <p>&nbsp;</p>

@@ -1,3 +1,12 @@
+<h2>Answer approach</h2>
+<p>
+	Here we need to make two variable one ans string and another cnt = 0, iterate each chars on string then if '(' comes then check if cnt>=1 then only concatenate the ch to ans then inc cnt (cnt will always increment even if the inner if block doesn't execute) else dec cnt first then check if cnt>0 then only concatenate ch to ans, then after the end of main iteration return ans.
+</p>
+<br>
+<br>
+
+
+
 <h2><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array">Remove Duplicates from Sorted Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer array <code>nums</code> sorted in <strong>non-decreasing order</strong>, remove the duplicates <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a> such that each unique element appears only <strong>once</strong>. The <strong>relative order</strong> of the elements should be kept the <strong>same</strong>.</p>
 
 <p>Consider the number of <em>unique elements</em> in&nbsp;<code>nums</code> to be <code>k<strong>​​​​​​​</strong></code>​​​​​​​. <meta charset="UTF-8" />After removing duplicates, return the number of unique elements&nbsp;<code>k</code>.</p>
